@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makanan khas Sumatera Utara</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: rgb(2, 44, 2);
+        }
+        header {
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 5em;
+            padding-top: 2em;
+        }
+        .brand {
+            display: flex;
+            flex-direction: row;
+            text-transform: capitalize;
+            font-size: 25px;
+        }
+        .firstname {
+            color: lightblue;
+            font-weight: 400;
+        }
+        .lastname {
+            color: #ffffff;
+            padding-left: 5px;
+            font-weight: 400;
+        }
+        .navigation {
+            display: flex;
+        }
+        .navigation li {
+            list-style-type: none;
+            padding-left: 2em;
+        }
+        .navigation li a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .navigation li a:hover {
+            color: lightblue;
+            transition: all .6s ease-in-out;
+        }
+        .active {
+            color: black !important;
+            background-color: lightcyan;
+            border-radius: 8px;
+            padding: 5px;
+        }
+        main {
+            color: white;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            margin-left: 2em;
+            padding-top: 1em;
+        }
+        h2 {
+            margin-left: 1.3em;
+            text-transform: capitalize;
+            margin-top: 2em;
+        }
+        p {
+            font-size: 19px;
+            margin-top: 1em;
+            width: 90%;
+            margin-left: 2em;
+            text-align: justify;
+            font-weight: 200;
+        }
+        .judul {
+            margin-left: 2em;
+            width: 90%;
+            margin-top: 2.5em;
+            color: white;
+        }
+        .judul h1 {
+            text-transform: capitalize;
+        }
+        .judul h3 {
+            text-align: justify;
+        }
+        footer {
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="firstname">nanda</div>
+            <div class="lastname">eldo</div>
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html" >home</a></li>
+            <li><a href="food.html"class="active">food</a></li>
+            <li><a href="about.html">about us</a></li>
+        </ul>
+    </header>
+
+    <div class="judul">
+        <h1>makanan khas Sumatera utara</h1>
+        <h3>Untuk teman - teman yang penasaran dengan apa aja makanan khas dari sumatera utara silahkan baca blog
+            website ini dari awal sampai akhir dan semoga dapat menambah pengetahuan bagi teman - teman semuanya
+        </h3>
+    </div>
+
+    <main>
+        <!--makanan pertama-->
+        <div class="firstfood">
+            <h2>1.putu bambu</h2>
+            <img src="putu bambu - Copy.jpg" alt="gambar putu bambu">
+            <p>Kue putu bambu adalah jenis kudapan tradisional Indonesia berupa kue dengan isian gula jawa , dibalut dengan parutan kelapa 
+                dan tepung beras butiran kasar.Kue ini dikukus dengan diletakkan di dalam tabung bambu yang sedikit dipadatkan .
+            </p>
+        </div>
+        <div class="secondfood">
+            <h2>2.bika ambon</h2>
+            <img src="bika ambon.jpg" alt="gambar bika ambon">
+            <p>Bika ambon adalah kue tradisional khas Medan,Indonesia.Kue ini terbuat dari bahan - bahan seperti tepung tapioka
+                ,telur,gula,dan santan.Bika ambon dimasak selama 12 jam agar dapat bertahan dalam kondisi terbaik dan sesuai apa yang diinginkan
+                selam empat hari karena setelahnya kue tersebut akan mengeras.
+            </p>
+        </div>
+        <div class="thirdfood">
+            <h2>3.lemang</h2>
+            <img src="lemang - Copy.jpe" alt="gambar lemang">
+            <p>Lemang adalah makan dari beras ketan yang dimasak dalam seruas bambu , setelah sebelumnya digulung dengan selembar
+                daun pisang.Gulungan daun bambu berisi ketan dicampur santan kelapa ini kemudian dimasukkan ke dalam seruas bambu lalu dibakan sampai matang.
+                Lemang lebih nikmat disantap hangat - hangat.
+            </p>
+        </div>
+        <div class="fourthfood">
+            <h2>4.soto medan</h2>
+            <img src="soto medan.jpg" alt="gambar soto medan">
+            <p>Soto medan adalah masakan Indonesia lhas Sumatera Utara.Bahan untuk membuat soto medan adalah santan , daun jeruk limau
+                , bunga lawang , lengkuas , serai , bawang merah , bawang putih , ketumbar , jintan , lada hitam , jahe , kunyit , gula dan
+                garam sebagai bumbu.
+            </p>
+        </div>
+        <div class="lastfood">
+            <h2>5.kari bihun</h2>
+            <img src="kari bihun.jpg" alt="gambar kari bihun">
+            <p>Kari bihun adalah salahsatu menu khas yang sangat populer di kota Medan ini . Kari ini biasanya dijadikan sebagai menu santap saat berbuka 
+                puasa . Menu makanan ini bisa dengan mudah ditemukan di sepanjang jalan di Kota Medan.Biasanya kari bihun ini didajikan bersama dengan kentang yan telah
+                dikukus sehingga anda tidak perlu nasi untuk membuat perut kenyang.Karena biasanya dalam satu porsi kari sudah memakai bihun
+                yang lumayan banyak.
+            </p>
+        </div>
+    </main>
+</html>
